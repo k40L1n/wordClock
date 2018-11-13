@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+@import url('https://fonts.googleapis.com/css?family=Megrim');
+
+body {
+  font-family: 'Gugi', cursive;
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.clock {
+  background-color: #040b29;
+  color: #d3d3d30e;
+  font-size: 2rem;s
+  font-weight: 900;
+  letter-spacing: 1vh;
+  line-height: 2.5rem;
+  padding: 9vh 1vh 9vh 11vh;
+}
+.always-on{
+   color: yellow;
+   text-shadow: 0 0 10px yellow;
+   /*font-family: 'Megrim', cursive;*/
+}
+.red{
+   color:red;
+   text-shadow:0 0 10px red;
+  /* font-family: 'Megrim', cursive;*/
+}
+.on{
+  color: rgb(47, 255, 168);
+  text-shadow: 0 0 10px rgb(9, 231, 183);
+}
